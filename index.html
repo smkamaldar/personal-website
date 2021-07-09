@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!------------------- Google font ------------------->
+
+    <!------------------- Font Awesome------------------->
+    <script
+      src="https://kit.fontawesome.com/da4c9a3191.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-------------------Main Css------------------->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <title>Elmira Kamaldar</title>
+  </head>
+  <body>
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="#" class="nav__logo">Elmira</a>
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list grid">
+            <li class="nav__item">
+              <a href="#home" class="nav__link">
+                <i class="fas fa-home nav__icon"></i> Home
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#about" class="nav__link"
+                ><i class="fas fa-user nav__icon"></i> About
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#skills" class="nav__link"
+                ><i class="fas fa-file-alt nav__icon"></i> Skills</a
+              >
+            </li>
+            <li class="nav__item">
+              <a href="#services" class="nav__link"
+                ><i class="fas fa-briefcase nav__icon"></i> Services</a
+              >
+            </li>
+            <li class="nav__item">
+              <a href="#portfolio" class="nav__link"
+                ><i class="fas fa-image nav__icon"></i> Portfolio</a
+              >
+            </li>
+            <li class="nav__item">
+              <a href="#contact" class="nav__link"
+                ><i class="fas fa-paper-plane nav__icon"></i> Contact me</a
+              >
+            </li>
+          </ul>
+          <i class="fas fa-times-circle nav__close" id="nav-close"> </i>
+        </div>
+        <div class="nav__btns">
+          <div class="nav__toggle" id="nav-toggle">
+            <i class="fas fa-th-large"></i>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!----------------------------------------------- Main -->
+    <main class="main">
+      <section class="home section" id="home">
+        <div class="home__container container grid">
+          <div class="home__content grid">
+            <div class="home__social">
+              <a href="#" class="home__social-icon" target="_blank">
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+              <a href="#" class="home__social-icon" target="_blank">
+                <i class="fas fa-basketball-ball"></i>
+              </a>
+              <a href="#" class="home__social-icon" target="_blank">
+                <i class="fab fa-github"></i>
+              </a>
+            </div>
+            <div class="home__img">
+              <svg
+                class="home__blob"
+                viewBox="0 0 200 187"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+              >
+                <mask id="mask0" mask-type="alpha">
+                  <path
+                    d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
+                    130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 
+                    97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 
+                    0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"
+                  />
+                </mask>
+                <g mask="url(#mask0)">
+                  <path
+                    d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 
+                    165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
+                    129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
+                    -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"
+                  />
+                  <!-- baraye tanzim ax dakhele svg x,y ra khodeman midahim  -->
+                  <image
+                    class="home__blob-img"
+                    x="12"
+                    y="18"
+                    xlink:href="assets/img/perfil.png"
+                  />
+                </g>
+              </svg>
+            </div>
+            <div class="home__data">
+              <h1 class="home__title">Hey, I am Elmira</h1>
+              <h3 class="home__subtitle">Full stack developer</h3>
+              <p class="home__description">
+                High level experience in web design and development knowledge,
+                producing quality work.
+              </p>
+              <a href="#contact" class="button button--flex">
+                Contact Me <i class="fas fa-paper-plane button__icon"></i>
+              </a>
+            </div>
+          </div>
+          <div class="home__scroll">
+            <a href="#about" class="home__scroll-button button--flex">
+              <i class="fas fa-mouse home__scroll-mouse"></i>
+              <span class="home__scroll-name">Scroll down</span>
+              <i class="fas fa-arrow-down home__scroll-arrow"></i>
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-------------------Main Js------------------->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
